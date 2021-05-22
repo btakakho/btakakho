@@ -25,7 +25,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 ```
 
-`focal = Focal Fossa.` - название релиза ubuntu 20.04
+`focal = Focal Fossa` - название релиза ubuntu 20.04
 
 ### 5. Потом обновите базу данных пакетов и добавьте в нее пакеты Docker из недавно добавленного репозитория:
 
