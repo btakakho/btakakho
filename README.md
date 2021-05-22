@@ -1,2 +1,1 @@
-# dotfiles
-.dotfiles
+# Мой .dotfiles и различные мануалы
