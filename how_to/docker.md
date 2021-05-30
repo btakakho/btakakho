@@ -1,9 +1,11 @@
 # Установка Docker и Docker Compose на Ubuntu 20.04
 
 ## Установка Docker
+
 ### 1. Обновите существующий список пакетов:
 
 ```
+
 sudo apt update
 ```
 
@@ -76,6 +78,7 @@ groups
 ```
 
 ## Установка Docker Compose
+
 ### 1. Установите Docker Compose
 
 Проверьте актуальную версию на страничке https://github.com/docker/compose/releases.
