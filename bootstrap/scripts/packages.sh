@@ -10,6 +10,9 @@ packages=(
   bat
   alacritty
   conky
+  apt-transport-https
+  ca-certificates
+  software-properties-common
 )
 
 for package in ${packages[*]}

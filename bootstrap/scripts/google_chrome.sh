@@ -3,6 +3,7 @@
 if which google-chrome &> /dev/null
 then
 	echo "google-chrome already installed."
+    google-chrome --version
 else
 	echo "Installing Google Chrome..."
 	wget $CHROME_URL -O $DOWNLOADS_DIR/google_chrome.deb

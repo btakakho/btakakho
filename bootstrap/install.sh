@@ -52,6 +52,24 @@ then
     source ./scripts/android_studio.sh
 fi
 
+ask "Install Flutter?"
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    source ./scripts/flutter.sh
+fi
+
+ask "Install Docker?"
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    source ./scripts/docker.sh
+fi
+
+ask "Install Docker-compose?"
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    source ./scripts/docker_compose.sh
+fi
+
 ask "Set zsh as default shell?"
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
