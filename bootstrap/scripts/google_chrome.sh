@@ -2,11 +2,11 @@
 
 if which google-chrome &> /dev/null
 then
-	echo "google-chrome already installed."
+    echo "google-chrome already installed."
     google-chrome --version
 else
-	echo "Installing Google Chrome..."
-	wget $CHROME_URL -O $DOWNLOADS_DIR/google_chrome.deb
-  	# sudo dpkg -i $DOWNLOADS_DIR/google_chrome.deb
+    echo "Installing Google Chrome..."
+    wget $CHROME_URL -O $DOWNLOADS_DIR/google_chrome.deb
+      # sudo dpkg -i $DOWNLOADS_DIR/google_chrome.deb
     rm $DOWNLOADS_DIR/google_chrome.deb
 fi
