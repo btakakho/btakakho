@@ -46,6 +46,12 @@ then
     source ./scripts/intellij.sh
 fi
 
+ask "Install Android Studio?"
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    source ./scripts/android_studio.sh
+fi
+
 ask "Set zsh as default shell?"
 if [[ $REPLY =~ ^[Yy]$ ]]
 then

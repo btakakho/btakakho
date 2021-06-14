@@ -2,9 +2,9 @@
 
 if which code &> /dev/null
 then
-	echo "VSCode already installed"
+	echo "VSCode already installed."
 else
-	echo "Installing VSCode"
+	echo "Installing VSCode..."
 	sudo snap install --classic code
 fi
 echo

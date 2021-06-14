@@ -11,14 +11,13 @@ packages=(
   alacritty
   conky
 )
-echo
 
 for package in ${packages[*]}
 do
     if isPackageInstalled $package
     then
 		echo
-  		echo "Installing ${package}"
+  		echo "Installing ${package}..."
   		echo
   		sudo apt-get install ${package} -yq && echo "${package} installation done."
 	else
