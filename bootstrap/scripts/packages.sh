@@ -13,6 +13,7 @@ packages=(
   apt-transport-https
   ca-certificates
   software-properties-common
+  mpv
 )
 
 for package in ${packages[*]}
