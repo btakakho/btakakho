@@ -14,6 +14,7 @@ packages=(
   ca-certificates
   software-properties-common
   mpv
+  flameshot
 )
 
 for package in ${packages[*]}
