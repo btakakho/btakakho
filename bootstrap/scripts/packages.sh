@@ -15,6 +15,7 @@ packages=(
   software-properties-common
   mpv
   flameshot
+  golang
 )
 
 for package in ${packages[*]}
