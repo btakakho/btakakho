@@ -16,6 +16,7 @@ packages=(
   mpv
   flameshot
   golang
+  racket
 )
 
 for package in ${packages[*]}
