@@ -5,7 +5,7 @@ source "${HOME}/.aliases"
 source "${HOME}/antigen.zsh"
 
 # Load Antigen configurations
-antigen init ~/.antigenrc
+antigen init "${HOME}/.antigenrc"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

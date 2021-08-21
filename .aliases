@@ -1,4 +1,4 @@
 alias c="clear"
 alias ssh_key_gen='ssh-keygen -t rsa -b 4096 -C'
 alias me="curl cli.fyi/me"
-alias cat="batcat"
+alias cat="bat"
